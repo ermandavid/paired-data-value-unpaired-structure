@@ -1,0 +1,12 @@
+evidence,scale,main_boundary
+Synthetic trust regressions,1.92 million draws,Theorem/implementation checks only; not neural evidence
+Fixed-marginal benchmark,9900 fits,Identical unpaired marginals can still require paired d/N estimation
+Controlled digits,1797 samples; 20 repetitions,Pair savings and finite-unpaired effects under controlled geometry
+Pixel/Sobel,1000 samples; 80 sets per budget,Genuine different views and negative marginal-MMD control
+COCO/Flickr CLIP panel,36783 rows; 20 repetitions,Low-pair gains; harmful intermediate regime; matched STRUCTURE crossover
+TextVQA,39602 rows; 20 repetitions,Pre-specified 1/4/8 transfer family is null
+DINOv2-MPNet COCO,5000 rows; 20 repetitions,Prospective independent-encoder low-pair gain does not transfer
+Earlier sealed heuristic pilot,5 encoder pairs; 20 repetitions,All primary outcomes neutral; sole directional HELP call fails
+Sealed COCO theorem-certificate study,6 encoder combinations; 20 repetitions,6 frozen HELP calls; 6 HELP outcomes; 120/120 primary differences negative
+Flickr30k selective challenge,6 selected conditions; 20 repetitions,4 correct HELP calls; 2 UNCERTAIN calls later HARM; 6/6 mean-in-interval
+Frozen CLIP endpoints,77453 rows,Task endpoint can precede whole-map recovery; data-quality failure retained
