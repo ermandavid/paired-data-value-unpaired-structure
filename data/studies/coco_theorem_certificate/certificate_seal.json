@@ -1,0 +1,16 @@
+{
+  "reader_name": "Sealed COCO theorem-certificate study",
+  "protocol_version": "v257b-theorem-certificate-2",
+  "frozen_commit": "1529e32614456fa854f839b94459a6e5de99b14d",
+  "certificate_path_in_development_record": "data/prospective_v257b_certificate/prospective_certificates.json",
+  "certificate_sha256": "2f141b2633820e903c7a1d7d21e525d285f10809ab72117ae7b54b033edda87e",
+  "created_at_utc": "2026-09-01T15:15:14.231024+00:00",
+  "lock_sha256": "7fb2dc93157eff609cdc0a5ea5dd9568eb1073305f3f187e093f4de7851e53bd",
+  "manifest_sha256": "8ce66d40418f8c8bef9ee19b1f2adacd7994482398870174ce76777ef83d9951",
+  "critical_code_sha256": {
+    "prepare_and_seal_script": "eff0235e64fcddcbfc76755b013073c986d71ac4dd5e7b10d0c88cbd22858b7c",
+    "reveal_outcomes_script": "0654ec54e0ff0b5f0e359506c3f96ac4af8cc9998046817ab90410b5a98f54a9",
+    "theorem_certificate_runner": "57a74f566b368a57620629511ae172e28d39998a145ebc86efd8dcb40e4f1e09"
+  },
+  "claim_boundary": "The exact finite-sample coverage theorem applies under the stated Gaussian linear-pilot model. The neural experiment is a prospectively frozen model-transfer test of the theorem-derived statistic."
+}
