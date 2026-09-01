@@ -1,0 +1,22 @@
+{
+  "reader_name": "Prospectively frozen Flickr30k selective challenge",
+  "protocol_version": "v259-flickr30k-regime-1",
+  "n_selected": 6,
+  "n_directional_certificates": 4,
+  "n_uncertain_certificates": 2,
+  "n_help_certificates": 4,
+  "n_harm_certificates": 0,
+  "directional_accuracy_on_formal_help_harm_calls": 1.0,
+  "all_heldout_means_inside_frozen_intervals": true,
+  "primary_results": [
+    {"condition":"ConvNeXtV2+MSMARCO","screen_role":"HELP-like","formal_call":"HELP","interval":[-71.07311614765595,-17.549591770030574],"heldout_mean":-39.56447786031789,"heldout_outcome":"HELP"},
+    {"condition":"ConvNeXtV2+MiniLM","screen_role":"HELP-like","formal_call":"HELP","interval":[-67.28987010589626,-16.321952199433895],"heldout_mean":-36.5379299074296,"heldout_outcome":"HELP"},
+    {"condition":"ResNet50+DistilRoBERTa","screen_role":"HARM-like","formal_call":"UNCERTAIN","interval":[-7.534838932476873,11.479257727385209],"heldout_mean":1.9279283636812348,"heldout_outcome":"HARM"},
+    {"condition":"ResNet50+MiniLM","screen_role":"HARM-like","formal_call":"UNCERTAIN","interval":[-7.964253751975933,11.176846991300472],"heldout_mean":1.567353896672464,"heldout_outcome":"HARM"},
+    {"condition":"ResNet50+MSMARCO","screen_role":"boundary","formal_call":"HELP","interval":[-0.027905144018446338,-0.017658403527771753],"heldout_mean":-0.020894202441223385,"heldout_outcome":"HELP"},
+    {"condition":"SwinV2+DistilRoBERTa","screen_role":"boundary","formal_call":"HELP","interval":[-0.0277689788616435,-0.01940500382345175],"heldout_mean":-0.024575681335267725,"heldout_outcome":"HELP"}
+  ],
+  "exact_two_sided_signflip_p_each_primary": 0.0000019073486328125,
+  "holm_adjusted_p_each_primary": 0.000011444091796875,
+  "scope": "UNCERTAIN is abstention, not a NEUTRAL prediction. The study validates prospective HELP decisions and consequential abstention; it does not contain a formal prospective HARM certificate."
+}
