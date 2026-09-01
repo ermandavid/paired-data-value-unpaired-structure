@@ -1,0 +1,4 @@
+reader_name,dataset,internal_protocol_id,frozen_reference,primary_role,status
+Earlier sealed heuristic pilot,COCO,v255-prospective-1,935ee293df279435b342ae2565aa92659bed9e36,Cross-fitted practical pilot heuristic before full-curve reveal,Only directional primary HELP call failed; retained as partial falsification
+Sealed COCO theorem-certificate study,COCO val2017,v257b-theorem-certificate-2,1529e32614456fa854f839b94459a6e5de99b14d,Actual theorem-derived 256-pair certificate before held-out 50-pair outcome,6 HELP calls; 6 HELP outcomes; 120/120 repetition differences negative
+Prospectively frozen Flickr30k selective challenge,Flickr30k,v259-flickr30k-regime-1,certificate_sha256=79277992f7ed0aabb178ccd9159c344d06ffc73547326d7612104382c5ab0285,Separate screen/certify/reveal study with new dataset and encoder families,4 HELP calls correct; 2 UNCERTAIN calls later HARM; 6/6 mean-in-interval
