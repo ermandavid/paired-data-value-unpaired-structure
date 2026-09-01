@@ -1,0 +1,17 @@
+{
+  "reader_name": "Prospectively frozen Flickr30k selective challenge",
+  "protocol_version": "v259-flickr30k-regime-1",
+  "certificate_sha256": "79277992f7ed0aabb178ccd9159c344d06ffc73547326d7612104382c5ab0285",
+  "created_at_utc": "2026-09-01T18:12:09.204295+00:00",
+  "lock_sha256": "77190130b5e35f9912f594855388ed6a8cc472b8376cc60ac41d7317708e7cde",
+  "manifest_sha256": "569f29f32026f87c073f1e86ae1ce94642803d356baaa5287138f72c0d735846",
+  "screen_seal_sha256": "0734400fcc29d50e700244187c39811c11c348c44bbe3326b27253acdb9398b9",
+  "screen_sha256": "c85dfc25280f9bac171896092989b6a75f40c3b74f6e575d340038c396f77e71",
+  "critical_code_sha256": {
+    "screen_and_freeze_script": "b78c3e0c25a6bb4cd8bff167a0e6f1bd698f6cc7050f02b79fb1a1c7a16ee06e",
+    "certify_and_seal_script": "6ad03af83b6054343eb80ac815573c3d1d5967e696c1a37fda1e2481ae570f72",
+    "reveal_outcomes_script": "e7637159ee83c3604b9de07c7e1bb814cca495c85a43cb8709efea6984bce623",
+    "flickr_regime_runner": "13169b192db7fd6a698017a39117e67cf17068a68574f4e94bcdba726f9aaa33"
+  },
+  "claim_boundary": "Screening selected regimes before certification; only the independent certification set issued formal labels. The study was prospectively frozen, not externally preregistered."
+}
