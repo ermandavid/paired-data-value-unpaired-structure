@@ -1,0 +1,21 @@
+{
+  "reader_name": "Sealed COCO theorem-certificate study",
+  "protocol_version": "v257b-theorem-certificate-2",
+  "primary_endpoint": "held-out quadratic alignment loss: soft structural pre-projection solve minus paired-only OLS at 50 pairs",
+  "encoder_pairs": [
+    {"name":"MAE+BGE","mean_delta":-8.262128172557468},
+    {"name":"MAE+GTR-T5","mean_delta":-8.588381322361807},
+    {"name":"MAE+Snowflake","mean_delta":-8.368783681741451},
+    {"name":"BEiT+BGE","mean_delta":-14.243334193049597},
+    {"name":"BEiT+GTR-T5","mean_delta":-13.816673973638427},
+    {"name":"BEiT+Snowflake","mean_delta":-15.388356860507304}
+  ],
+  "official_predictions": ["HELP","HELP","HELP","HELP","HELP","HELP"],
+  "heldout_outcomes": ["HELP","HELP","HELP","HELP","HELP","HELP"],
+  "negative_repetition_differences": 120,
+  "total_repetition_differences": 120,
+  "exact_two_sided_signflip_p_each": 0.0000019073486328125,
+  "holm_adjusted_p_each": 0.000011444091796875,
+  "all_heldout_means_inside_frozen_intervals": true,
+  "scope": "One shared COCO 2x3 encoder grid with only HELP calls. Prospective model-transfer evidence, not proof of exact Gaussian neural coverage."
+}
