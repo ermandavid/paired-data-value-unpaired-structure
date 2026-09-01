@@ -1,12 +1,12 @@
 # Course paper
 
-The canonical reader-facing manuscript is the 15-page paper **When Does Unpaired Structure Save Paired Supervision? Exact Pair Value, Selective Trust, and Certified Deployment**.
+The reader-facing manuscript is the 15-page paper **When Does Unpaired Structure Save Paired Supervision? Exact Pair Value, Selective Trust, and Certified Deployment**.
 
-The current V263 release contains the compiled PDF and LaTeX source. The connected GitHub writer used in this session can write UTF-8 repository files but cannot upload binary PDFs/figure assets directly, so the public repository currently holds the reproducibility/data layer. Upload the V263 files
+Use professional, version-free filenames in this public repository:
 
-- `PAIR_VALUE_V263_COURSE_PREPRINT_AUTHOR.pdf`
-- `PAIR_VALUE_V263_COURSE_PREPRINT_AUTHOR.tex`
+- `Paired_Data_Value_and_Unpaired_Structure.pdf`
+- `Paired_Data_Value_and_Unpaired_Structure.tex`
 
-from the V263 release into this `paper/` directory when convenient, together with reader-facing figure assets if you want the repository itself to compile the PDF without downloading the release package.
+The connected GitHub writer used in this session can write UTF-8 files but cannot upload the compiled PDF or binary figure assets directly. The final submission package therefore contains both files under these names. Upload them into this `paper/` directory, together with the `figures/` assets from the package if you want the repository itself to compile the PDF.
 
-The paper already links this public repository. Internal study labels are intentionally absent from the reader-facing narrative; `data/study_provenance.csv` provides the exact mapping needed for auditability.
+The paper links this public repository. Reader-facing prose uses descriptive study names. Exact immutable protocol identifiers are kept only in `data/study_provenance.csv` and the corresponding provenance records, where their meaning is explicit.
