@@ -1,0 +1,14 @@
+{
+  "reader_name": "Earlier sealed heuristic pilot",
+  "protocol_version": "v255-prospective-1",
+  "frozen_commit": "935ee293df279435b342ae2565aa92659bed9e36",
+  "pilot_pairs": 16,
+  "encoder_pairs": 5,
+  "crossfit_folds": 4,
+  "primary_endpoint": "quadratic alignment MSE classification after Holm correction",
+  "primary_predictions": ["NEUTRAL","HELP","NEUTRAL","NEUTRAL","NEUTRAL"],
+  "primary_outcomes": ["NEUTRAL","NEUTRAL","NEUTRAL","NEUTRAL","NEUTRAL"],
+  "only_directional_primary_prediction_replicated": false,
+  "secondary_notable_result": "ViT+GTE R@10 structural-minus-Procrustes = -0.002965; Holm-adjusted p = 0.0298 (HURT)",
+  "interpretation": "Retained as a partial falsification. The practical cross-fitted heuristic is not the Gaussian theorem-derived trust statistic, and raw 4/5 primary label agreement is not informative because a constant-NEUTRAL rule would score 5/5."
+}
