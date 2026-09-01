@@ -27,12 +27,12 @@ A post-hoc decision audit applies the simple rule **deploy structure only after 
 
 ## Repository layout
 
-- `paper/` - current 15-page course/preprint LaTeX source.
+- `paper/` - the professional manuscript location; use `Paired_Data_Value_and_Unpaired_Structure.pdf` and `.tex` when uploading the final course paper.
 - `code/` - compact verification and figure/audit scripts.
 - `data/` - project-generated compact results and frozen study provenance summaries.
 - `docs/` - method/data provenance and claim boundaries.
 
-Exact internal protocol labels are kept only for reproducibility. Reader-facing writing uses descriptive study names; `data/study_provenance.csv` maps those names to the frozen internal records.
+Reader-facing files and prose use descriptive scientific names rather than internal release numbers. Exact immutable protocol identifiers are kept only where auditability requires them; `data/study_provenance.csv` maps descriptive study names to the frozen records.
 
 ## Data policy
 
